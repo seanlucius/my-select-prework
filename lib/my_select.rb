@@ -1,3 +1,5 @@
 def my_select(collection)
- # your code here!
+ selection_array = []
+ i = 0 
+ while 
 end
