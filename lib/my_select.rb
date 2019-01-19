@@ -2,7 +2,7 @@ def my_select(collection)
  selection_array = []
  i = 0 
  while i < collection.length
-  if yield(collection[i]) 
+  if yield(collection[i]) == true 
     selection_array.push(yield(collection[i]))
   end 
   i += 1 
